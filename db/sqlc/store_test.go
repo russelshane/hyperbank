@@ -35,8 +35,6 @@ func TestTransferTx(t *testing.T) {
 		}()
 	}
 
-	// check results
-	existed := make(map[int]bool)
 
 	for i := 0; i < n; i++ {
 		err := <-errs
