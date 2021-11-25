@@ -94,8 +94,6 @@ func (store *SQLStore) TransferTx(ctx context.Context, arg TransferTxParams) (Tr
 			return err
 		}
 
-
-
 		return err
 	})
 
