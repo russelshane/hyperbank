@@ -1,0 +1,19 @@
+# MODULES
+tmp/
+build/
+dist/
+out/
+node_modules/
+
+# SECRETS
+app.env
+.env
+.env.local
+.env.production
+.env.development
+
+# MISC
+*DS.Store
+npm-debug.log
+yarn-error.log
+yarn-debug.log
