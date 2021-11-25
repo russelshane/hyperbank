@@ -8,6 +8,7 @@ import (
 
 // Store defines all functions to execute db queries and transactions
 type Store interface {
+	Querier
 	TransferTx(ctx context.Context, arg TransferTxParams) (TransferTxResult, error)
 }
 
@@ -68,7 +69,7 @@ func (store *SQLStore) TransferTx(ctx context.Context, arg TransferTxParams) (Tr
 	err := store.execTx(ctx, func(q *Queries) error {
 		var err error
 
-		//lint:ignore S1016 please
+		//lint:ignore
 		result.Transfer, err = q.CreateTransfer(ctx, CreateTransferParams{
 			FromAccountID: arg.FromAccountID,
 			ToAccountID:   arg.ToAccountID,
@@ -93,6 +94,8 @@ func (store *SQLStore) TransferTx(ctx context.Context, arg TransferTxParams) (Tr
 		if err != nil {
 			return err
 		}
+
+
 
 		return err
 	})

@@ -35,7 +35,7 @@ func TestTransferTx(t *testing.T) {
 		}()
 	}
 
-
+	// check results
 	for i := 0; i < n; i++ {
 		err := <-errs
 		require.NoError(t, err)
@@ -77,5 +77,4 @@ func TestTransferTx(t *testing.T) {
 		require.NoError(t, err)
 
 	}
-
 }
