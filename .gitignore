@@ -6,7 +6,6 @@ out/
 node_modules/
 
 # SECRETS
-app.env
 .env
 .env.local
 .env.production
