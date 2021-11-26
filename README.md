@@ -10,3 +10,9 @@
     Blazing fast banking infrastructure. 🚀
 </strong>
 </p>
+
+<div align="center">
+
+[![go-ci-test](https://github.com/russelshane/hyperbank/actions/workflows/tests.yml/badge.svg)](https://github.com/russelshane/hyperbank/actions/workflows/tests.yml)
+
+</div>
