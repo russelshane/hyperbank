@@ -7,7 +7,7 @@
 </div>
 <p align="center">
   <strong>
-    Blazing fast banking infrastructure. 🚀
+    Blazing fast banking infrastructure. 🚀 (On Hold)
 </strong>
 </p>
 
