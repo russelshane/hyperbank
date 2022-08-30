@@ -1,5 +1,5 @@
 <div style="margin-top:80px; margin-bottom: 20px;">
-<a href="https://hyperbank.ph">
+<a>
   <p align="center">
    <img height=100 src="https://ik.imagekit.io/drs/HyperBank/hyperbank_icon_8LBl3ELNy.png" />
   </p>
@@ -7,7 +7,7 @@
 </div>
 <p align="center">
   <strong>
-    Blazing fast banking infrastructure. 🚀 (On Hold)
+    High-performance retail banking infrastructure. 🚀 (On Hold)
 </strong>
 </p>
 
