@@ -8,7 +8,7 @@
 <p align="center">
   <strong>
     High-performance retail banking infrastructure. 🚀 (On Hold)
-</strong>
+</strong> 
 </p>
 
 <div align="center">
