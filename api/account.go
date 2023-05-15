@@ -1,5 +1,4 @@
 package api
-
 import (
 	"database/sql"
 	"net/http"
