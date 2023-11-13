@@ -7,6 +7,6 @@
 </div>
 <p align="center">
   <strong>
-    High-performance banking infrastructure. 🚀
+    High-performance bank microservice 🚀
 </strong> 
 </p>
