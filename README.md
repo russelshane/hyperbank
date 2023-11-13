@@ -7,12 +7,6 @@
 </div>
 <p align="center">
   <strong>
-    High-performance retail banking infrastructure. 🚀 (On Hold)
+    High-performance banking infrastructure. 🚀
 </strong> 
 </p>
-
-<div align="center">
-
-[![go-ci-test](https://github.com/russelshane/hyperbank/actions/workflows/tests.yml/badge.svg)](https://github.com/russelshane/hyperbank/actions/workflows/tests.yml)
-
-</div>
