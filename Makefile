@@ -6,7 +6,7 @@ createdb:
 dropdb:
 	docker exec -it postgres12 dropdb hyperbank
 
-migrateup:
+migrateup: 
 	migrate -path db/migration -database "postgresql://root:secret@localhost:5432/hyperbank?sslmode=disable" --verbose up
 
 migratedown:
